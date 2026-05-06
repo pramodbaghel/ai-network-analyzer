@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Network Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📡 AI Network Analyzer Dashboard</h1>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Usage</h2>
+        <p id="usage">0 KB</p>
+    </div>
+
+    <div class="card">
+        <h2>Devices</h2>
+        <p id="devices">0</p>
+    </div>
+
+    <div class="card">
+        <h2>Status</h2>
+        <p id="alert" class="normal">Loading...</p>
+    </div>
+
+</div>
+
+<div class="chart-container">
+    <canvas id="chart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
