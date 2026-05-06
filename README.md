@@ -74,6 +74,15 @@ Example:
 So instead of writing hard rules, model learns patterns automatically.
 
 ---
+## Screenshots
+
+* Dashboard View
+  screenshots/dashboard.png
+
+* Alert Example
+  screenshots/alert.png
+
+---
 
 ## Features
 
